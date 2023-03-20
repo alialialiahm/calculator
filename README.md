@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculatorr.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/solid.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <h1 class="col-lg-12">Calculator</h1>
+    <section class="row">
+        <div id="mainCalculator" class="col-lg-12 col-md-12 col-sm-12 col-12">
+            <section class="row">
+                <div id="firtFive" class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <input type="text" id="in" disabled>
+                    <div id="mt">
+                        <button class="btn btn-dark num" value="1">1</button>
+                        <button class="btn btn-dark num" value="2">2</button>
+                        <button class="btn btn-dark num" value="3">3</button>
+                    </div>
+                </div>
+            </section>
+            <section class="row">
+                <div id="fromSixToTen" class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <button class="btn btn-dark num" value="4">4</button>
+                    <button class="btn btn-dark num" value="5">5</button>
+                    <button class="btn btn-dark num" value="6">6</button>
+                </div>
+            </section>
+            <section class="row">
+                <div id="symboles" class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <button class="btn btn-dark num" value="7">7</button>
+                    <button class="btn btn-dark num" value="8">8</button>
+                    <button class="btn btn-dark num" value="9">9</button>
+                    </div>
+            </section>
+            <section class="row">
+                <div id="symboles" class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <button class="btn btn-dark num" value="0">0</button>
+                    <button class="btn btn-dark num" value="*" >x</button>
+                    <button class="btn btn-dark num" value="/">:</button>
+                </div>
+            </section>
+            <section class="row">
+                <div id="symboles" class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <button class="btn btn-dark num" value="+">+</button>
+                    <button class="btn btn-dark num" value="-">-</button>
+                    <button class="btn btn-dark num" id="remove">clear</button>
+                    <button class="btn btn-dark num" id="equal">=</button>
+                </div>
+            </section>
+                    
+                </div>
+            </section>
+            </div>
+    </section>
+    <script src="../js/calculatorr.js"></script>
+</body>
+</html>
