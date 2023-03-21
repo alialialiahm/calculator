@@ -1,0 +1,25 @@
+#fromSixToTen{
+    margin-top: 5px;
+}
+#symboles{
+    margin-top: 5px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px!important;
+}
+#mainCalculator{
+    position: absolute;
+    top:18%;
+    left: 42%;
+}
+button{
+    width: 60px;
+    height: 50px;
+}
+#mt{
+    margin-top: 20px;
+}
+#in{
+    width: 190px!important;
+}
